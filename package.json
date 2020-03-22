@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-basic-layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/junaidatique/tailwind-basic-layout",
+  "author": "Junaid Atique <junaidatique@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  }
+}
